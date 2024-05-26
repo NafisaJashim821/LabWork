@@ -23,7 +23,7 @@ public class PaymentProcess {
         System.out.println("Bank  " + paymentProcess.makePayment(200));
 
         paymentProcess.setPaymentStrategy(new Bkash());
-        System.out.println("Bkash payment  " +paymentProcess.makePayment(500);
+        System.out.println("Bkash  " +paymentProcess.makePayment(500));
 
         paymentProcess.setPaymentStrategy(new CreditCardPayment());
         System.out.println("CreditCard : " + paymentProcess.makePayment(5500));
